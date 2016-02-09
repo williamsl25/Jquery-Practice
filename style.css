@@ -1,0 +1,50 @@
+.photos {
+  display: none;
+  position: relative;
+  list-style-type: none;
+}
+
+li {
+  padding: 1.5em;
+  height: 300px;
+}
+img{
+  position: absolute;
+  padding-bottom: 1.5em;
+  height: 300px;
+  width: 370px;
+}
+.title{
+  position: absolute;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 12.5;
+  letter-spacing: 3px;
+  text-align: center;
+  vertical-align: bottom;
+  width: 370px;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0 auto;
+}
+
+.tours {
+  /*-moz-transition: top 0.2s;
+  -o-transition: top 0.2s;
+  -webkit-transition: top 0.2s;*/
+  border: 2px solid #2a2a2a;
+  display: inline-block;
+  width: 33%;
+}
+.highlight {
+  background-color: #fafafa;
+}
+
+.highlight .price {
+ font-weight: bolder;
+ font-size: 2em;
+ color: #7e7e7e;
+
+ }
